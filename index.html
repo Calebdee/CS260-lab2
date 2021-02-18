@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+                            @import url('http://fonts.cdnfonts.com/css/intro');
+</style>
+
 
 <head>
-  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+  <link href="http://fonts.cdnfonts.com/css/intro" rel="stylesheet">
+                
   <title>Lab 2</title>
-  <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
+    <div class="TopBar">
+    <div class="titleSection">
+    <h1>BamBam Weather</h1>
+    </div>
+    <div class="EntryContainer">
+      <div class="EntryOne">
+        <h2>Enter a City</h2>
+      </div>
+      <form>
+        <input id="weatherInput" type="text"></input><br/>
+        <input id="weatherSubmit" type="submit" value="Submit"></input>
+      </form>
+   </div>
 
-  <h1>Lab 2</h1>
+    </div>
+
+  <hr>
+   <div id="weatherBox">
+   <div id="weatherResults">
+   </div>
+   <div id="forecastResults">
+	</div>
+  </div>
+
+  <hr>
+  <footer>
+    <p><em>Find Code At: <a href="https://github.com/Calebdee/CS260-lab2"> GitHub</a><em></p>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
   <script text="type/javascript" src="/script.js">

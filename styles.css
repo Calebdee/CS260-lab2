@@ -1,0 +1,96 @@
+h1 {
+  font-family: 'Intro Demo', sans-serif;
+                                                
+}
+
+.TopBar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.EntryContainer {
+	display: flex;
+	border: 1px solid black;
+	max-width: 35%;
+	min-width: 400px;
+	justify-content: center;
+	background-color: lightgrey;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10px;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+.EntryOne {
+	width: 50%;
+}
+
+#weatherBox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#weatherResults {
+	max-width: 400px;
+	border:1px solid black;
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 15px;
+	padding: 15px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+#forecastResults {
+	max-width: 400px;
+	max-height: 700px;
+	border:1px solid black;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 15px;
+	overflow: scroll;
+	text-align: center;
+	padding: 15px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+form {
+	display: flex;
+	align-items: center;
+}
+
+h2{
+  font-family: 'Intro Demo', sans-serif;
+                                                
+}
+
+h3 {
+  font-family: 'Intro Demo', sans-serif;
+                                                
+}
+
+p {
+	font-family: 'Intro Demo', sans-serif;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#CAFAFE)) fixed;
+}
+
+label {
+	font-family: 'Intro Demo', sans-serif;
+}
